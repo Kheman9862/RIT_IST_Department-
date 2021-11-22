@@ -1,0 +1,39 @@
+.text {
+  color: #f76902;
+}
+
+.header {
+  margin-top: 50px;
+}
+
+.results {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.img_edit {
+  width: 240px;
+  height: 260px;
+}
+
+.description {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  border-bottom: 0.2px solid grey;
+}
+
+.name {
+  color: #c75300;
+  font-size: 30px;
+}
+
+.fix_email {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input_fac {
+  width: 400px;
+  height: 50px;
+}

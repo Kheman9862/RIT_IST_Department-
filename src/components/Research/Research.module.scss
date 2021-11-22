@@ -1,0 +1,63 @@
+.about {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.about_section {
+  background: url(https://www.swbr.com/wp-content/uploads/2017/03/RIT_GIS_33-600-E-RT-1200x801.jpg)
+    no-repeat left;
+  background-size: 62%;
+  background-color: #ffffff;
+  overflow: hidden;
+  padding: 100px 0;
+}
+
+.inner_container {
+  width: 55%;
+  float: right;
+  background-color: #f76902;
+  padding: 80px;
+}
+
+.inner_container h1 {
+  margin-bottom: 30px;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.text {
+  font-size: 16px;
+  color: #fff;
+  line-height: 24px;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+
+@media screen and (max-width: 1200px) {
+  .inner-container {
+    padding: 80px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .about-section {
+    background-size: 100%;
+    padding: 100px 40px;
+  }
+  .inner-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .about-section {
+    padding: 0;
+  }
+  .inner-container {
+    padding: 60px;
+  }
+}
+
+.basis {
+  text-align: center;
+}
